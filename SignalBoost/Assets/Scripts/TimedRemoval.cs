@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class TimedRemoval : MonoBehaviour
 {
-    void DestroyObjectDelayed()
+    public void DestroyObjectDelayed(int aliveTime)
     {
         // Kills the game object in X seconds after loading the object
-        Destroy(gameObject, 20);
+        Destroy(gameObject, aliveTime);
     }
 
+    void Start()
+    {
+
+    }
     // Update is called once per frame
     void Update()
     {

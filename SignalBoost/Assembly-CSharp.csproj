@@ -64,7 +64,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraMove.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
-    <Compile Include="Assets\Scripts\SignalSpawner.cs" />
+    <Compile Include="Assets\Scripts\ObjectSpawner.cs" />
+    <Compile Include="Assets\Scripts\signalSpawner.cs" />
     <Compile Include="Assets\Scripts\TimedRemoval.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/HatCapitalist/Documents/Unity schaiba/SignalBoost/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
